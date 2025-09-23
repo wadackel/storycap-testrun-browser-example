@@ -1,0 +1,17 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node22/tsconfig"],
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", "storybook.d.ts"],
+  "exclude": ["node_modules", "dist", "build", "storybook-static"]
+}
