@@ -2,6 +2,16 @@
 
 A sample project demonstrating Visual Regression Testing (VRT) using `@storybook-testrun/browser`.
 
+## Results
+
+[#1](https://github.com/wadackel/storycap-testrun-browser-example/pull/1#issuecomment-3322308849) is an example with visual differences.
+
+| Overview                                | Detail                              |
+| :-------------------------------------- | :---------------------------------- |
+| ![Overview](./docs/assets/overview.png) | ![Detail](./docs/assets/detail.png) |
+
+If the image in the comment is not visible, it is recommended to fork this repository and try running it yourself.
+
 ## Architecture
 
 VRT is implemented using the following toolchain. You can customize the Storybook Framework to your preference.
